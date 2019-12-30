@@ -1,0 +1,26 @@
+/* HeroDetailComponent's private CSS styles */
+label {
+    display: inline-block;
+    width: 3em;
+    margin: .5em 0;
+    color: rgb(44, 92, 56);
+    font-weight: bold;
+  }
+  input {
+    height: 2em;
+    font-size: 1em;
+    padding-left: .4em;
+  }
+  
+  button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+  }
+  h2{
+    font-size: x-large;
+  }
+  span{
+    font-size: small;
+    color: rgb(44, 92, 56);
+  }

@@ -1,0 +1,12 @@
+
+<div>
+  <h2>Cart Items</h2>>
+</div>
+
+<ul class="orderitems">
+  <li *ngFor="let orderitem of orderitems">
+    <a routerLink="/detail/{{orderitem.id}}">
+      <span class="badge">{{orderitem.id}}</span> {{orderitem.name}}
+    </a>
+  </li>
+</ul>

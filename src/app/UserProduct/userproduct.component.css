@@ -1,0 +1,74 @@
+/* HeroesComponent's private CSS styles */
+.products {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+  }
+  .products li {
+    position: relative;
+    cursor: pointer;
+    background-color: #EEE;
+    margin: 10px;
+    padding: .9em 0;
+    height: 1.9em;
+    border-radius: 4px;
+  }
+  
+  .products li:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+  }
+  
+  .products a {
+    color: black;
+    font-size: medium;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(209, 205, 205);
+    text-align: center;
+  }
+  
+  .products span {
+    color: rgb(189, 185, 185);
+    text-decoration: none;
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 40px;
+    top:-15px;
+  }
+  
+  .products a:hover {
+    color:#607D8B;
+  }
+  
+  .products .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color:#405061;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.9em;
+    min-width: 16px;
+    text-align: right;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .products .upbtn{
+    position: relative;
+    top:-10px;
+    background-color: rgb(50, 139, 56) !important;
+    color: white;
+    width: 80px;
+    height: 40px;
+  }

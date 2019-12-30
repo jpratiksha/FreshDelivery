@@ -1,0 +1,17 @@
+
+<h2>Products List</h2>>
+  <br/>
+  <table class="products">
+    <tr *ngFor="let product of products">
+      <td>
+      
+        <span class="badge">{{product.id}}</span> 
+    </td>
+    <td>
+      <a>{{product.name}}</a>
+    <td>
+        <button class="upbtn" (click)="add(product.id)">
+            Buy Now
+        </button>
+    </tr>
+  </table>

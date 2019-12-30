@@ -1,0 +1,30 @@
+
+<div>
+  <label>Product name: 
+    <input #productName/>
+  </label>
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button (click)="add(productName.value); productName.value=''">
+    add
+  </button>
+</div>
+<br/>
+<br/>
+<table class="products">
+  <tr *ngFor="let product of products">
+    <td>
+    
+      <span class="badge">{{product.id}}</span> 
+  </td>
+  <td>
+    <a routerLink="/detail/{{product.id}}">
+    {{product.name}}
+    </a>
+  </td>
+  <td>
+    <td>
+      <button class="delete" title="delete product"
+      (click)="delete(product)">x</button>
+    </td>
+  </tr>
+</table>
