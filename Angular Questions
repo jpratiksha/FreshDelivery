@@ -1,0 +1,7 @@
+Routing:
+1) How to change base path using angular cli?
+2) How many active Router service can be there in an application?
+3) What arguments forRoot() takes?
+4) What is the functionality of forRoot() and forChild()?
+5) What is the difference between forRoot() and forChild()?
+6) How many forRoot() can be there in an application?
